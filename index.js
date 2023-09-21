@@ -6,7 +6,7 @@ let imagens = [
     './zoro.jpg'
 ]
 
-let time = 2000
+let time = 5000
 let count = 0
 
 function moveSlideShow() {

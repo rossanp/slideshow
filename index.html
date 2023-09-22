@@ -11,7 +11,11 @@
 <body>
     <main>
         <h1>SlideShow</h1>
-        <img class="slideshow" width="600" height="400" />
+        <div class="container">
+            <span class="previous" onclick="previousSlide()">&#10094;</span>
+            <img class="slideshow" width="600" height="400" id="slideshowImage" />
+            <span class="next" onclick="nextSlide()">&#10095;</span>
+        </div>
     </main>
     <script src="index.js"></script>
 </body>
